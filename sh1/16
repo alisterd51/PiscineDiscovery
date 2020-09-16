@@ -1,0 +1,2 @@
+mkdir source_directory
+cp -R source_directory target_directory

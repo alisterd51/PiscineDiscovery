@@ -1,0 +1,2 @@
+touch source_file
+cp source_file target_file
