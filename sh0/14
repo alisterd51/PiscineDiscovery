@@ -1,0 +1,5 @@
+ls -a /dev
+ls -a /net
+ls -a /usr
+
+fichiers en commun: . et ..
