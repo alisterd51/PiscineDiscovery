@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body {
+				background-color: pink;
+				text-align: center;
+			}
+			.myfont {
+				font-family: "Comic Sans MS", cursive;
+				color: #3c1a78;
+			}
+			.test {
+				border-radius: 50%;
+				border: dashed white;
+			}
+			#menu {
+				background-color: #ec4761;
+				float:left;
+				width:24.5%;
+				height:460px;
+			}
+			#principal {
+				background-color: #906cf7;
+				margin-left:25%;
+			}
+			#footer {
+				background-color: #459d98;
+				font-family: "Comic Sans MS", cursive;
+				color: white;
+				clear:both;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="myfont">Mise en beauté</h1>
+		<h3 class="myfont">Je suis un sous-titre</h3>
+		<div id="menu">
+			<%= RUBY_VERSION %>
+		</div>
+		<div id="principal">
+			<img src="https://pbs.twimg.com/media/Db8uqDaX4AE6vA3?format=jpg&name=small"
+				alt="norminet le chat"
+				title="norminet"
+				width="600" height="450"
+				class="test">
+		</div>
+		<div id="footer">
+			<p> Un footer.</p>
+			<br>
+			<br>
+			<br>
+		</div>
+	</body>
+</html>
